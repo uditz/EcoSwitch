@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Eco Switch</string>
+    <string name="bottom_text">Made with ❤️ \nby udit </string>
+    <string name="next">Next</string>
+    <string name="waves_of_food">Waves Of Food</string>
+    <string name="deliver_favourite_food">Deliver Favourite Food</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="email_or_phone_number">Email</string>
+    <string name="or">Or</string>
+    <string name="continue_with">Continue With</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account">Don’t Have Account? Register</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="choose_your_location">Choose your location</string>
+    <string name="choose_location">Choose location</string>
+    <string name="textOfDropDownPage">To provide you with the best dining experience, we need your permission to access your device\'s location. By enabling location services, we can offer personalized restaurant recommendations, accurate delivery estimates, and ensure a seamless food delivery experience.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_menu">View Menu</string>
+    <string name="popular">Popular</string>
+    <string name="eco_switch">Eco Switch</string>
+    <string name="this_app_made_e_waste_disposal_so_easy_priya_delhi">\"This app made e-waste disposal so easy!\" - Ayush, Delhi</string>
+</resources>

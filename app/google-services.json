@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414139696402",
+    "project_id": "eco-switchf",
+    "storage_bucket": "eco-switchf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414139696402:android:fc6a3f7ccee60233335fcb",
+        "android_client_info": {
+          "package_name": "com.example.ecoswitch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTUs-GGyMY-kBMqzsaYwaMRFk2x7F-QZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminFragments.showUsersFragment">
+
+    <!-- LinearLayout for Column Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="16dp">
+
+        <!-- User Name Column Header -->
+        <TextView
+            android:id="@+id/userIdText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="User ID"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/userNameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"/>
+
+        <!-- User Email Column Header -->
+        <TextView
+            android:id="@+id/userEmailText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Email"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"/>
+
+        <!-- User Location Column Header -->
+        <TextView
+            android:id="@+id/userLocationText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Location"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!-- RecyclerView to display the list of users -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/usersRecyclerView"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_below="@id/userNameText"
+        android:padding="16dp"/>
+
+</FrameLayout>

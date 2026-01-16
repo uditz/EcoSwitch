@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:gravity="center_vertical">
+
+    <!-- Location Icon (Always Visible) -->
+    <ImageView
+        android:id="@+id/spinner_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/location_sign_svgrepo_com" />
+
+    <!-- State Name -->
+    <TextView
+        android:id="@+id/stateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="9dp"
+       android:textColor="@color/black"
+
+        android:gravity="center_vertical"/>
+</LinearLayout>

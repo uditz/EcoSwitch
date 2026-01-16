@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/userId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="User ID"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- User Name Column -->
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Name"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- User Email Column -->
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:text="Email"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- User Location Column -->
+    <TextView
+        android:id="@+id/userLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:text="Location"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+</LinearLayout>

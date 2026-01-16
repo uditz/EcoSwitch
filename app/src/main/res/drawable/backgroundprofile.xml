@@ -1,0 +1,15 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#6A88FF"/> <!-- Light Blue Shade -->
+
+    <corners android:topLeftRadius="200dp"
+        android:topRightRadius="200dp"/>
+
+    <padding android:bottom="10dp"/>
+
+    <gradient
+        android:startColor="#6A88FF"
+        android:endColor="#FFFFFF"
+        android:angle="90"/>
+</shape>

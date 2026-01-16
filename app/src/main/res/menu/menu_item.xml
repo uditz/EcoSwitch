@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+
+        />
+    <item
+        android:id="@+id/history"
+        android:title="add"
+        android:icon="@drawable/history"
+        />
+    <item
+        android:id="@+id/fab"
+        android:title=""
+
+        />
+    <item
+        android:id="@+id/process"
+        android:title="process"
+        android:icon="@drawable/truck"
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/myprofilesvg"
+        />
+
+</menu>

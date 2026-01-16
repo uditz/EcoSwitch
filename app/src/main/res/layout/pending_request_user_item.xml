@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <!-- ImageView for Requester or Item -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="90dp"
+            android:layout_height="85dp"
+            app:cardCornerRadius="9dp"
+            app:cardElevation="4dp">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/requesterImage"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/curved_border"
+
+                android:contentDescription="requester_image_description"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <!-- Right Side Content (Details & Buttons) -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+
+            <!-- Requester Name -->
+            <TextView
+                android:id="@+id/requesterName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="John Doe" />
+
+
+            <TextView
+                android:id="@+id/currentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="4dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="12 FEB 2024 , 12:30 AM" />
+
+
+            <!-- Location -->
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="8dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="New York, USA" />
+
+            <!-- Action Buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:id="@+id/processButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In process"
+                    android:layout_marginBottom="5dp"
+
+                    android:background="@drawable/curved_border"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/grey_font"
+
+
+                    android:layout_marginStart="8dp"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
